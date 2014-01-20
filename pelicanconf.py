@@ -10,7 +10,7 @@ SITEDESC = u'手机上的大蠎 !-)'
 SITENOTE = u"qPython官方网站"
 
 SITEURL = 'http://qPython.org'
-DISQUS_SITENAME = u"qpython4org" #填入你的Shortname
+DISQUS_SITENAME = u"qpythonandroidgithubio" #填入你的Shortname
 
 MARKUP = ('md', 'rst',)#'rst', 'html', 
 READERS = {
@@ -137,7 +137,7 @@ TAGS_SAVE_AS = 'tag/index.html'
 #AUTHORS_SAVE_AS = ''
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 
 

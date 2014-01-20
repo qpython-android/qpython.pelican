@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://qPython.org'
-DISQUS_SITENAME = u"qpython4org" #填入你的Shortname
+DISQUS_SITENAME = u"qpythonandroidgithubio" #填入你的Shortname
 
 RELATIVE_URLS = False
 
