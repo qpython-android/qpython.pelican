@@ -111,14 +111,14 @@ STATIC_PATHS = ['_images', '_files'
     , '_extra/robots.txt'
     , '_extra/favicon.ico'
     , '_extra/README.md'
-    , '_extra/CNAME'
+    #, '_extra/CNAME'
     , '_extra/LICENSE'
     ]
 
 EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
     , '_extra/favicon.ico': {'path': 'favicon.ico'}
     , '_extra/README.md': {'path': 'README.md'}
-    , '_extra/CNAME': {'path': 'CNAME'}
+    #, '_extra/CNAME': {'path': 'CNAME'}
     , '_extra/LICENSE': {'path': 'LICENSE'}
     }
 
