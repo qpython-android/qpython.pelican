@@ -1,6 +1,6 @@
 Title: 如何自在的折腾QPy
 Date: 2014-01-26 12:42
-Tags: howto, pelican
+Tags: howto, qpy, pythonic, ssh, 
 Slug: init-my-qpy-env
 Author: Zoom.Quiet
 
@@ -17,7 +17,7 @@ QPython 知道有两年了,是看 [Head First Python（中文版） (豆瓣)](ht
 可以看出 ,已经停止有一年多了,目测是 Guido 叔离开后, Python 的地位在 Google 
 一落千丈就没有人折腾了.
 
-好在旧浪两位同事, 存河/峰池 掿起了 SL4A 的旗帜,
+好在旧浪两位同事, River和CF 掿起了 SL4A 的旗帜,
 变成了一系列准衶器:
 
 - [QPython - Python for Android - Google Play 上的 Andr​​oid 应用](https://play.google.com/store/apps/details?id=com.hipipal.qpyplus)
@@ -71,26 +71,26 @@ QPython 知道有两年了,是看 [Head First Python（中文版） (豆瓣)](ht
 1. 42 秒, 明确以上条件 `42%` 吻合,即可继续 ;-)
 
 ### 硬件
-- 手机: 电信协议 三星 Note2 N7108ZMDMF1:
+手机: 电信协议 三星 Note2 N7108ZMDMF1:
 
-  - Android 4.1.1 JRO03C
-  - 刷的是 MIUI-3.3.15 野生版
-  - CPU 四核 1.6GHz
-  - 内存 2G
-  - 存储 16G
+- Android 4.1.1 JRO03C
+- 刷的是 MIUI-3.3.15 野生版
+- CPU 四核 1.6GHz
+- 内存 2G
+- 存储 16G
 
-- 主机: MBP 12下半年版 
+主机: MBP 12下半年版 
 
-  - OS X 10.9.1
-  - Core i7 2.2GHz
-  - 8G 内存
-  - 500G 机械硬盘
+- OS X 10.9.1
+- Core i7 2.2GHz
+- 8G 内存
+- 500G 机械硬盘
 
-- 湿件: 30++++++++++岁老程序猿
+湿件: 30++++++++++岁老程序猿
 
-  - 180,180,180,,,
-  - Pascal,JAVA,C,C++,ASP,JS,XSLT,PHP,Python,Node,Go,Haskell,Lisp,REBOL,Clojure,Rust,Erlang,,,少量经验
-  - 精通26字母, Cnglish 熟练
+- 180,180,180,,,
+- Pascal,JAVA,C,C++,ASP,JS,XSLT,PHP,Python,Node,Go,Haskell,Lisp,REBOL,Clojure,Rust,Erlang,,,少量经验
+- 精通26字母, Cnglish 熟练
 
 
 ## 探索
