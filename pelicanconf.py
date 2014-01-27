@@ -4,10 +4,10 @@ from __future__ import unicode_literals
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
-AUTHOR = u'qPython'
-SITENAME = u'qPython'
+AUTHOR = u'QPython'
+SITENAME = u'QPython'
 SITEDESC = u'手机上的大蠎 !-)'
-SITENOTE = u"qPython官方网站"
+SITENOTE = u"QPython官方网站"
 
 SITEURL = 'http://qpython-android.github.io'
 DISQUS_SITENAME = u"qpythonandroidgithubio" #填入你的Shortname
