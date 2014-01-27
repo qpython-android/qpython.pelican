@@ -4,10 +4,12 @@ from __future__ import unicode_literals
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
-AUTHOR = u'qPython'
-SITENAME = u'qPython'
-SITEDESC = u'手机上的大蠎 !-)'
-SITENOTE = u"qPython官方网站"
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+AUTHOR = u'QPythoneer'
+SITENAME = u'QPython'
+SITEDESC = u'移动设备上的大蠎 !-)'
+SITENOTE = u".org"
 
 SITEURL = 'http://qpython-android.github.io'
 DISQUS_SITENAME = u"qpythonandroidgithubio" #填入你的Shortname
@@ -73,9 +75,9 @@ DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 ADDTHIS_PROFILE = None #True
     
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
-        ,('PyChina', 'http://pychina.org')
-        )
+#MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
+#        ,('PyChina', 'http://pychina.org')
+#        )
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -85,13 +87,14 @@ TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
 
-SOCIAL = (('GitHub', 'https://github.com/PyConChina')
-        , ('CPyUG', 'https://gitcafe.com/CPyUG')
-        , ('News', 'http://news.pychina.org')
-        , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
+SOCIAL = (('GitHub', 'https://github.com/qpython-android/QPython.org')
+        , ('Q&A', 'http://qpython.org/questions/')
+        , ('Wiki', 'http://wiki.qpython.org/')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
-        , ('weibo', 'http://weibo.com/pyconcn')
+        , ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('O.B.P', 'http://weibo.com/openbookproject')
+        , ('Zoom.Quiet', 'http://zoomquiet.io')
+        , ('PyChina', 'http://pychina.org')
         )
 # Blogroll
 LINKS =  None
@@ -136,8 +139,6 @@ TAGS_SAVE_AS = 'tag/index.html'
 #AUTHOR_SAVE_AS = ''
 #AUTHORS_SAVE_AS = ''
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 
 
