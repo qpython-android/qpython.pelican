@@ -10,4 +10,6 @@ Slug: about
 
 ## changelog
 
+- 140126 ZQ 简化文本
 - 140111 ZQ 创建
+

@@ -9,7 +9,7 @@ SITENAME = u'qPython'
 SITEDESC = u'手机上的大蠎 !-)'
 SITENOTE = u"qPython官方网站"
 
-SITEURL = 'http://qPython.org'
+SITEURL = 'http://qpython-android.github.io'
 DISQUS_SITENAME = u"qpythonandroidgithubio" #填入你的Shortname
 
 MARKUP = ('md', 'rst',)#'rst', 'html', 
