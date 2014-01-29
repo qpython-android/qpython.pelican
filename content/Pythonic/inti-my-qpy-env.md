@@ -89,7 +89,7 @@ QPython 知道有两年了,是看 [Head First Python（中文版） (豆瓣)](ht
 湿件: 30++++++++++岁老程序猿
 
 - 180,180,180,,,
-- Pascal,JAVA,C,C++,ASP,JS,XSLT,PHP,Python,Node,Go,Haskell,Lisp,REBOL,Clojure,Rust,Erlang,,,少量经验
+- ASP,Basic,C,C++,Clojure,Erlang,Forth,Factor,Go,Haskell,JS,JAVA,Lisp,Node,PHP,Python,Pascal,XSLT,REBOL,Rust,,,少量经验
 - 精通26字母, Cnglish 熟练
 
 
