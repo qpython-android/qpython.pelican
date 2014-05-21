@@ -8,7 +8,7 @@ from __future__ import unicode_literals
 #RELATIVE_URLS = True
 AUTHOR = u'QPythoneer'
 SITENAME = u'QPython'
-SITEDESC = u'移动设备上的大蠎 !-)'
+SITEDESC = u'Python for Android'
 SITENOTE = u".org"
 
 SITEURL = 'http://qpython-android.github.io'
@@ -87,14 +87,14 @@ TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
 
-SOCIAL = (('GitHub', 'https://github.com/qpython-android/QPython.org')
+SOCIAL = (('GitHub', 'http://github.com/qpython-android')
         , ('Q&A', 'http://qpython.org/questions/')
         , ('Wiki', 'http://wiki.qpython.org/')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
-        , ('CPyUG', 'https://gitcafe.com/CPyUG')
-        , ('O.B.P', 'http://weibo.com/openbookproject')
-        , ('Zoom.Quiet', 'http://zoomquiet.io')
-        , ('PyChina', 'http://pychina.org')
+        #, ('CPyUG', 'https://gitcafe.com/CPyUG')
+        #, ('O.B.P', 'http://weibo.com/openbookproject')
+        #, ('Zoom.Quiet', 'http://zoomquiet.io')
+        #, ('PyChina', 'http://pychina.org')
         )
 # Blogroll
 LINKS =  None
