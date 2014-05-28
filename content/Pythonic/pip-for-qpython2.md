@@ -1,10 +1,10 @@
-Title: 如何自在的折腾QPy
+Title: QPython2 加入pip, 让你获得Python世界的海量Packages
 Date: 2014-05-28 17:58
 Tags: howto, qpy, Pythonic, pip, 
 Slug: pip-for-qpython2
 Author: River
 
-[TOP]
+[TOC]
 
 ## 背景
 
