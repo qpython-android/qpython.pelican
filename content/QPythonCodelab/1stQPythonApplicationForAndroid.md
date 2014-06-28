@@ -181,6 +181,12 @@ Final 版本
 ---------
 开发完成后，希望其有快速启动的入口，而不需要经过层层点击才能启动。
 最简单的方法是你可以在我的QPython浏览界面中，长按该项目图表，则能够在Android桌面创建一个快捷链接。
+
+
+![长按创建快捷连接](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/add_shortcut.png)
+![成功创建快捷连接](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/shortcut_created.png)
+
+
 此外，如果你想设置其为QPython启动按钮首选启动的应用程序而不显示当前的启动菜单，你可以在设置中，通过设置默认程序为你开发的程序即可完成。
 
 
