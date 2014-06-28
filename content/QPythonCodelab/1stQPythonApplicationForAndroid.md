@@ -174,7 +174,7 @@ Final 版本
 ---------
 在Demo 版本的基础加入真数据，并对一些细节进行适配调整，即可得到Final版本
 
-[PM2.5早知道 GITHUB](https://github.com/qpython-android/SourceCodelab.PM25)
+获得[PM2.5早知道源代码](https://github.com/qpython-android/SourceCodelab.PM25)
 
 此外，你还想增加什么功能？未来PM2.5播报，天气预报, PM2.5变化趋势图 ？Just do IT.
 
