@@ -78,7 +78,7 @@ Web程序员的程序开发环境也可以说是必需的，当然如果你是�
 
 QPython入门
 -------
-作为架构师，你需要充分掌握你手中的利器，才能做到庖丁解牛，游刃有余地推动你的项目，接下来，你只需要30分钟，即可掌握QPython以及WebApp应用框架
+作为架构师，你需要充分掌握你手中的利器，才能做到庖丁解牛，游刃有余地推动你的项目，接下来，你只需要30分钟，即可掌握QPython以及WebApp应用框架，QPython WebApp应用框架能够让具有Web开发背景的开发者快速构建Android本地应用。
 
 ### QPython的使用
 首先，QPython是我们项目的运行容器，我们所开发的项目需要运行在QPython之上（当然QPython也提供其他不同定位的程序开发支持，可以在以后的Codelab教程中逐一展示），因此你需要掌握以下使用技巧
@@ -165,7 +165,7 @@ QPython入门
 
 Demo 版本
 ---------
-Demo 版本实现了界面流程，使用模拟数据，使得应用业务逻辑可行
+Demo 版本实现了界面流程，使用模拟数据，使得应用业务逻辑可行。以下截图分别是在开发机上WEB浏览器中运行的截图和在Android手机中用QPython运行的截图。
 
 ![PM2.5早知道 - 运行在浏览器中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_web.png)
 ![PM2.5早知道 - 运行在QPython之中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_mobile.png)
