@@ -142,7 +142,7 @@ QPython入门
 
 下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
 
-[了解QPython中WebApp中文件的结构)(wiki.qpython.org/dev/webapp_sample/)
+[了解QPython中WebApp中文件的结构)(http://wiki.qpython.org/dev/webapp_sample/)
 
 ![本地Web开发](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/develop_with_pc.png)
 
