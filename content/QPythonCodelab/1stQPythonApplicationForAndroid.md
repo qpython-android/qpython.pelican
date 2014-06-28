@@ -167,10 +167,14 @@ Demo 版本
 ---------
 Demo 版本实现了界面流程，使用模拟数据，使得应用业务逻辑可行
 
+![PM2.5早知道 - 运行在浏览器中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_web.png)
+![PM2.5早知道 - 运行在QPython之中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_mobile.png)
 
 Final 版本
 ---------
 在Demo 版本的基础加入真数据，并对一些细节进行适配调整，即可得到Final版本
+
+[PM2.5早知道 GITHUB](https://github.com/qpython-android/SourceCodelab.PM25)
 
 此外，你还想增加什么功能？未来PM2.5播报，天气预报, PM2.5变化趋势图 ？Just do IT.
 
