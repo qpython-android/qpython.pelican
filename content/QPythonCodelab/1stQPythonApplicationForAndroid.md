@@ -119,7 +119,7 @@ QPython入门
 - 根据地理位置查询所在城市
 - PM2.5数据来源：根据PM2.5API可以查询到所在城市的PM2.5数值情况
 
-了解QPython的地理位置的[SL4A接口](http://wiki.qpython.org/sl4a/)，掌握[PM2.5的数据来源接口](http://pm25.in/api_doc)，[根据地理坐标查询所在城市 - google API](http://blog.sina.com.cn/s/blog_6c72388b0101eiyj.html)
+了解QPython的地理位置的[SL4A接口](http://wiki.qpython.org/sl4a/)，掌握[PM2.5的数据来源接口](http://pm25.in/api_doc)，[根据地理坐标查询所在城市 - google API](http://blog.sina.com.cn/s/blog_6c72388b0101eiyj.html) 如果无法使用google服务，则需要掌握如何设立应用代理
 
 ### 应用的交互设计
 - 主要为根据不同的PM2.5展示做不同的预警展示，并能满足用户查看详情的需求
