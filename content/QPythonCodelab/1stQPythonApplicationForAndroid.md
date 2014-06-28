@@ -132,7 +132,36 @@ QPython入门
 
 
 ## 推进过程以及FAQ
-采取小版本迭代，小步推进的方式推进该项目
+### 如何开始
+- 在开发机器上安装bootstrap, bottle，象Web开发一样去开发, 本地调试后
+- 以上传到QPython运行目录/sdcard/com.hipipal.qpyplus/projects/<ProjectDir>
+- 通过QPython的运行按钮运行查看效果
+
+### 使用bootstrap, bottle，象Web开发一样去开发
+我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程
+
+下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
+
+[了解QPython中WebApp中文件的结构)(wiki.qpython.org/dev/webapp_sample/)
+
+![本地Web开发](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/develop_with_pc.png)
+
+### 上传到QPython运行
+- 连接手机到开发机后，执行 adb push <本地目录> /sdcard/com.hipipal.qpyplus/projects/PM2.5 来把项目上传到QPython的项目目录
+- 点击开始按钮即可看到PM2.5选项
+- 启动后可以看到运行效果
+![QPython运行WebApp - 1](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/run_project.png)
+
+![QPython运行WebApp - 2](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_debug.png)
+
+### 如何使用全屏幕模式
+如果应用的入口文件main.py文件中没有#qpy:fullscreen，则应用默认会具备QPython的导航，如果想要WebView组件按照全屏模式运行，则在main.py中增加#qpy:fullscreen即可
+
+
+![使用默认编辑器快捷修改源文件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/add_fullscreen.png)
+
+![QPython全屏运行WebApp](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_fullscreen.png)
+
 
 Demo 版本
 ---------
