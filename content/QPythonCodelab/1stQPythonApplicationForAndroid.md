@@ -9,7 +9,7 @@ Author: River
 
 ## 背景
 
-QPython可以理解为为Quick Python，它是一个脚本引擎，目前可以在应用市场里找到两个QPython, 一个为QPython，另一个为QPython3，前者为Python2核心，后者为Python3核心，在本章节里面我们重点所介绍的是支持Python2的QPython版本，不过正如Python3和Python2一样，本Codelab所介绍的方法，可以简单修改即可移植到QPython3上。
+QPython可以理解为为Quick Python，它是一个脚本引擎，目前可以在应用市场里找到两个QPython, 一个为QPython，另一个为QPython3，前者为Python2核心，后者为Python3核心，在本章节里面我们重点所介绍的是支持Python2的QPython版本，不过正如Python3和Python2一样，本Codelab所介绍的方法，经过兼容性调整即可移植到QPython3上。
 
 
 ### 优势
@@ -97,13 +97,11 @@ QPython入门
 为了让Web开发者能够快速上手Android应用开发，QPython推出了WebApp框架，它包括两个部分
 - 基于Bottle框架的可定制本地Web服务器
 - 构建于Android系统的WebView容器，
-通过实现上述两个特性，我们能够轻松地让QPython运行本地WebApp，避免传统服务端WebApp的网络传输瓶颈问题，获得更佳用户体验，此外通过让Python能作为Backend语言，拥有更强大的包括网络、图像、运算等多种处理能力。再加上强大的Python第三方库支撑，拥有Python/Web开发经验的人即可轻松开发体验良好的WebApp
 
-更多详情 & 获取WebApp项目模板可以参考[QPython WebApp帮助](http://wiki.qpython.org/dev/webapp_sample/)
+实现上述两个特性，就我们能够轻松地让QPython运行本地WebApp，避免传统服务端WebApp的网络传输瓶颈问题，获得更佳用户体验，此外通过让Python能作为Backend语言，拥有更强大的包括网络、图像、运算等多种处理能力。再加上强大的Python第三方库支撑，拥有Python/Web开发经验的人即可轻松开发体验良好的WebApp
 
+更多详情可以参考[QPython WebApp帮助](http://wiki.qpython.org/dev/webapp_sample/)
 
-### 如何开发
-我们的应用即可按照传统WEB开发的模式去设计，即把QPython同时看作服务器和浏览器容器，我们一方面在里面用Web开发的模式去开发业务逻辑，另一方面，通过简单的定义，即可在QPython中启动WebView组建，载入运行这我们本地业务的URL
 
 应用设计
 ---------
@@ -118,11 +116,10 @@ QPython入门
 
 ### 关键数据来源
 - 地理位置信息：通过QPython的SL4A接口可轻易获得
+- 根据地理位置查询所在城市
 - PM2.5数据来源：根据PM2.5API可以查询到所在城市的PM2.5数值情况
 
-了解QPython的地理位置的[SL4A接口](http://wiki.qpython.org/sl4a/)
-
-了解[PM2.5的数据来源接口](http://pm25.in/api_doc)
+了解QPython的地理位置的[SL4A接口](http://wiki.qpython.org/sl4a/)，掌握[PM2.5的数据来源接口](http://pm25.in/api_doc)，[根据地理坐标查询所在城市 - 百度地图版](http://blog.csdn.net/zww111/article/details/6826455)
 
 ### 应用的交互设计
 - 主要为根据不同的PM2.5展示做不同的预警展示，并能满足用户查看详情的需求
@@ -135,7 +132,7 @@ QPython入门
 - 以上传到QPython运行目录/sdcard/com.hipipal.qpyplus/projects/<ProjectDir>
 - 通过QPython的运行按钮运行查看效果
 
-### 使用bootstrap, bottle，象Web开发一样去开发
+### 用Web开发模式开发QPython WebApp
 我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程
 
 在你的开发机上下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
