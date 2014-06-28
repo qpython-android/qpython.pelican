@@ -171,6 +171,38 @@ Final 版本
 ---------
 在Demo 版本的基础加入真数据，并对一些细节进行适配调整，即可得到Final版本
 
+### 获得地理坐标
+
+    roid = androidhelper.Android()
+    location = Droid.getLastKnownLocation().result
+    location = location.get('network', location.get('gps'))
+
+### 获得所在城市示范代码
+    ud  = urllib.urlopen('http://maps.google.com/maps/api/geocode/json?latlng=%s&sensor=true' % location)
+    json_result = ud.read()
+    ud.close()
+
+### 获得所在城市PM2.5
+    ud = urllib.urlopen('http://www.pm25.in/api/querys/pm2_5.json?city=%s&token=%s' % (city, token))
+    json_result = ud.read()
+    ud.close()
+
+### 根据PM2.5数值给出建议
+    if pm25_quality == '优':
+        ...
+    elif pm25_quality == '良好':
+        ...
+    elif pm25_quality == '不好':
+        ...
+    elif pm25_quality == '差劲':
+        ...
+    else:
+        ...
+
+
+将关键代码实现后输出即可获得最终的工作版本
+
+
 获得[PM2.5早知道源代码](https://github.com/qpython-android/SourceCodelab.PM25)
 
 此外，你还想增加什么功能？未来PM2.5播报，天气预报, PM2.5变化趋势图 ？Just do IT.
