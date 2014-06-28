@@ -38,6 +38,7 @@ QPython仍属于初创期，在编写时很多问题可以参考其社区和Wiki
 
 我们将使用QPython的WebApp应用框架开发，这样只需要掌握Web开发以及Python开发技能即可顺利实现目标。
 
+![App设计图](http://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5.png)
 
 
 
