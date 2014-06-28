@@ -150,6 +150,7 @@ QPython入门
 - 连接手机到开发机后，执行 adb push <本地目录> /sdcard/com.hipipal.qpyplus/projects/PM2.5 来把项目上传到QPython的项目目录
 - 点击开始按钮即可看到PM2.5选项
 - 启动后可以看到运行效果
+
 ![QPython运行WebApp - 1](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/run_project.png)
 
 ![QPython运行WebApp - 2](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_debug.png)
