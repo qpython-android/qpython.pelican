@@ -153,7 +153,6 @@ QPython入门
 - 启动后可以看到运行效果
 
 ![QPython运行WebApp - 1](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/run_project.png)
-
 ![QPython运行WebApp - 2](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_debug.png)
 
 ### 如何使用全屏幕模式
@@ -161,7 +160,6 @@ QPython入门
 
 
 ![使用默认编辑器快捷修改源文件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/add_fullscreen.png)
-
 ![QPython全屏运行WebApp](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_fullscreen.png)
 
 
