@@ -75,7 +75,7 @@ Web程序员的程序开发环境也可以说是必需的，当然如果你是�
 
 QPython入门
 -------
-作为架构师，你需要掌握你手中的利器，才能做到庖丁解牛，接下来，你只需要30分钟，即可了解QPython WebApp应用框架
+作为架构师，你需要充分掌握你手中的利器，才能做到庖丁解牛，游刃有余地推动你的项目，接下来，你只需要30分钟，即可掌握QPython以及WebApp应用框架
 
 ### QPython的使用
 首先，QPython是我们项目的运行容器，我们所开发的项目需要运行在QPython之上（当然QPython也提供其他不同定位的程序开发支持，可以在以后的Codelab教程中逐一展示），因此你需要掌握以下使用技巧
@@ -88,7 +88,7 @@ QPython入门
 - 如果你想使用第三方库，你需要知道如何使用QPython来安装第三方库
 
 
-更多详情可以参考[如何使用QPython](http://wiki.qpython.org/doc/how-to-start/)
+更多详情可以参考[如何使用QPython](http://wiki.qpython.org/doc/how-to-start/)，以及[如何使用QPython开发第一个HelloWorld](http://wiki.qpython.org/doc/hello-world/)
 
 ### QPython的WebApp框架
 为了让Web开发者能够快速上手Android应用开发，QPython推出了WebApp框架，它包括两个部分
@@ -119,11 +119,13 @@ QPython入门
 
 了解QPython的地理位置的[SL4A接口](http://wiki.qpython.org/sl4a/)
 
-了解PM2.5的数据来源接口
+了解[PM2.5的数据来源接口](http://pm25.in/api_doc)
 
 ### 应用的交互设计
 - 主要为根据不同的PM2.5展示做不同的预警展示，并能满足用户查看详情的需求
 - 技术实现方面我们选定使用Bootstrap作为前端框架
+
+[获取Bootstrap](http://getbootstrap.com)
 
 
 ## 推进过程以及FAQ
