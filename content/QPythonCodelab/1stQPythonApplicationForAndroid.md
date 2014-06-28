@@ -128,8 +128,6 @@ QPython入门
 - 主要为根据不同的PM2.5展示做不同的预警展示，并能满足用户查看详情的需求
 - 技术实现方面我们选定使用Bootstrap作为前端框架
 
-获得[Bootstrap](http://getbootstrap.com)
-
 
 ## 推进过程以及FAQ
 ### 如何开始
@@ -140,7 +138,10 @@ QPython入门
 ### 使用bootstrap, bottle，象Web开发一样去开发
 我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程
 
-下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
+在你的开发机上下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
+
+
+获得[Bootstrap](http://getbootstrap.com)，获得[Bottle](http://bottlepy.org)
 
 [了解QPython中WebApp中文件的结构](http://wiki.qpython.org/dev/webapp_sample/)
 
