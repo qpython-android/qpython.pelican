@@ -19,14 +19,11 @@ QPython可以理解为为Quick Python，它是一个脚本引擎，目前可以�
 除了拥有Python这个脚本引擎本身特性外，QPython还根据Android系统的特点深入扩展，实现了QRCodeReader（通过摄像头读取QRCode的代码片段），QEdit（掌上快捷Python编辑器）等功能；除此之外，QPython还扩展了对应的程序运行框架：约定了脚本和项目（可以保函多个资源的，由一个main.py作为程序入口）两种程序单元，并扩展了项目的定义，在项目的基础上定义了WebApp应用框架、GUI应用框架等。这些延伸能够极大地方便开发者在Android上灵活便捷地开发QPython应用程序。
 
 
-我们相信，集成并发扬了Python脚本语言的优良传统后，QPython在Android开发者的世界中占有一席之地，帮助光大爱好者快速开发，早日收获Android开发的成就感。 
-
-
-本篇QPython Codelab通过教会大家如何使用QPython开发一个Android应用。这个项目叫做《PM2.5早知道》
+本篇QPython Codelab通过教会大家如何使用QPython开发一个Android应用 - 《PM2.5早知道》
 
 
 ### 如何获得帮助
-QPython仍属于初创期，在编写时很多问题可以参考其社区和Wiki等网站，此外，也可以通过社区或者支持邮件的方式直接与其开发者沟通:
+开发者在使用QPython开发时可以借助其社区和Wiki等网站，此外，也可以通过社区或者支持邮件的方式直接与其开发者沟通:
 - [QPython Question](http://qpython.com/)
 - [QPython Wiki](http://wiki.qpython.org/)
 - 开发者支持邮箱 support@qpython.org
@@ -34,12 +31,11 @@ QPython仍属于初创期，在编写时很多问题可以参考其社区和Wiki
 
 ## 目标
 
-在进阶之前，我们确定今天要达成的目标，即《PM2.5早知道》项目，它是一个PM2.5预报程序，它可以帮助我们知道我们所在地点的PM2.5情况，为出行防护做准备。
+在进阶之前，我们明确本项目《PM2.5早知道》的项目目标，它是一个PM2.5预报程序，它可以帮助我们知道我们所在地点的PM2.5情况，为出行防护做准备。
 
 我们将使用QPython的WebApp应用框架开发，这样只需要掌握Web开发以及Python开发技能即可顺利实现目标。
 
 ![PM2.5早知道 - 设计](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5.png)
-
 
 
 
@@ -78,10 +74,10 @@ Web程序员的程序开发环境也可以说是必需的，当然如果你是�
 
 QPython入门
 -------
-作为架构师，你需要充分掌握你手中的利器，才能做到庖丁解牛，游刃有余地推动你的项目，接下来，你只需要30分钟，即可掌握QPython以及WebApp应用框架，QPython WebApp应用框架能够让具有Web开发背景的开发者快速构建Android本地应用。
+QPython WebApp应用框架能够让具有Web开发背景的开发者快速构建Android本地应用。作为开发者，充分掌握你手中的利器，才能做到庖丁解牛，游刃有余地推动项目，接下来，你只需要30分钟，即可掌握QPython以及WebApp应用框架。
 
 ### QPython的使用
-首先，QPython是我们项目的运行容器，我们所开发的项目需要运行在QPython之上（当然QPython也提供其他不同定位的程序开发支持，可以在以后的Codelab教程中逐一展示），因此你需要掌握以下使用技巧
+QPython是我们项目的运行容器，我们所开发的项目需要运行在QPython之上（当然QPython也提供其他不同定位的程序开发支持，可以在以后的Codelab教程中逐一展示），因此你需要掌握以下使用技巧:
 
 - 了解QPython的基本功能，能使用开始按钮以及开发者工具面板
 - 你需要知道如何把项目上传或更新到QPython中
@@ -98,7 +94,7 @@ QPython入门
 - 基于Bottle框架的可定制本地Web服务器
 - 构建于Android系统的WebView容器，
 
-实现上述两个特性，就我们能够轻松地让QPython运行本地WebApp，避免传统服务端WebApp的网络传输瓶颈问题，获得更佳用户体验，此外通过让Python能作为Backend语言，拥有更强大的包括网络、图像、运算等多种处理能力。再加上强大的Python第三方库支撑，拥有Python/Web开发经验的人即可轻松开发体验良好的WebApp
+实现上述两个特性，就我们能够轻松地让QPython运行本地WebApp，避免传统服务端WebApp的网络传输瓶颈问题，获得更佳用户体验，此外，通过让Python能作为Backend语言，拥有更强大的包括网络、图像、运算等多种处理能力。再加上强大的Python第三方库支撑，拥有Python/Web开发经验的人即可轻松开发体验良好的WebApp
 
 更多详情可以参考[QPython WebApp帮助](http://wiki.qpython.org/dev/webapp_sample/)
 
@@ -160,20 +156,19 @@ QPython入门
 ![QPython全屏运行WebApp](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_fullscreen.png)
 
 
-Demo 版本
+UI开发
 ---------
-Demo 版本实现了界面流程，使用模拟数据，使得应用业务逻辑可行。以下截图分别是在开发机上WEB浏览器中运行的截图和在Android手机中用QPython运行的截图。
+我们能在UI开发过程实现界面流程，结合模拟数据，展示了应用业务。以下截图分别是在开发机上WEB浏览器中运行的截图和在Android手机中用QPython运行的截图。
 
 ![PM2.5早知道 - 运行在浏览器中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_web.png)
 ![PM2.5早知道 - 运行在QPython之中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_mobile.png)
 
-Final 版本
+功能开发
 ---------
-在Demo 版本的基础加入真数据，并对一些细节进行适配调整，即可得到Final版本
-
+在UI开发的基础上进行能攻开发，即可得到我们最终的版本，下列为几个关键过程的参考代码：
 ### 获得地理坐标
 
-    roid = androidhelper.Android()
+    Droid = androidhelper.Android()
     location = Droid.getLastKnownLocation().result
     location = location.get('network', location.get('gps'))
 
@@ -181,11 +176,13 @@ Final 版本
     ud  = urllib.urlopen('http://maps.google.com/maps/api/geocode/json?latlng=%s&sensor=true' % location)
     json_result = ud.read()
     ud.close()
+    """ process json_result """
 
 ### 获得所在城市PM2.5
     ud = urllib.urlopen('http://www.pm25.in/api/querys/pm2_5.json?city=%s&token=%s' % (city, token))
     json_result = ud.read()
     ud.close()
+    """ process json_result """
 
 ### 根据PM2.5数值给出建议
     if pm25_quality == '优':
