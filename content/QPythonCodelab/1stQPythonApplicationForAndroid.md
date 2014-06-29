@@ -197,17 +197,17 @@ UI开发
         ...
 
 
-将关键代码实现后输出即可获得最终的工作版本
+将关键代码实现后输出即可实现我们本次的目标
 
 
-获得[PM2.5早知道源代码](https://github.com/qpython-android/SourceCodelab.PM25)
+你可以获得[PM2.5早知道项目源代码源代码](https://github.com/qpython-android/SourceCodelab.PM25)
 
-此外，你还想增加什么功能？未来PM2.5播报，天气预报, PM2.5变化趋势图 ？Just do IT.
+此外，你还想增加什么功能？天气预报, PM2.5变化趋势图以及预测 ？Just do IT !
 
 
 增加快捷链接
 ---------
-开发完成后，希望其有快速启动的入口，而不需要经过层层点击才能启动。
+开发项目完成后，是否希望在你的手机上有快速启动的入口，而不需要经过层层点击才能启动？
 最简单的方法是你可以在我的QPython浏览界面中，长按该项目图表，则能够在Android桌面创建一个快捷链接。
 
 
@@ -229,6 +229,8 @@ UI开发
 
 ### 自定义安装包，使用QPython的安装接口，对外分发
 QPython的market提供了几个Javascript函数定义，你能够方便地在自己的网页中调用，让使用QPython内嵌浏览器访问这些页面中可以方便地安装上.
+
+参考[怎样调用Javascript来安装第三方Package](http://wiki.qpython.org/hacker/pypi_js/)
 
 ### 尚不支持的发布到QPython商店
 目前官方暂时还不支持该方式
