@@ -235,7 +235,7 @@ QPython的market提供了几个Javascript函数定义，你能够方便地在自
 参考[怎样调用Javascript来安装第三方Package](http://wiki.qpython.org/hacker/pypi_js/)
 
 ### 尚不支持的发布到QPython商店
-目前官方暂时还不支持该方式
+目前官方暂时还不支持该方式，但有消息称官方团队已经将其放入发展计划。
 
 
 ## 总结
