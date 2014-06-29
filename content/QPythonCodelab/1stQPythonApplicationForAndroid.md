@@ -119,7 +119,7 @@ QPython是我们项目的运行容器，我们所开发的项目需要运行在Q
 
 ### 应用的交互设计
 - 主要为根据不同的PM2.5展示做不同的预警展示，并能满足用户查看详情的需求
-- 技术实现方面我们选定使用Bootstrap作为前端框架
+- 技术实现方面我们选定使用Bootstrap作为前端框架：Bootstrap能根据设备的宽度的不同提供适配的界面框架。
 
 
 ## 推进过程以及FAQ
@@ -129,9 +129,9 @@ QPython是我们项目的运行容器，我们所开发的项目需要运行在Q
 - 通过QPython的运行按钮运行查看效果
 
 ### 用Web开发模式开发QPython WebApp
-我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程
+我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程（QPython内建支持Bootle Web框架）
 
-在你的开发机上下载Bootstrap, 配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
+在你的开发机上下载Bootstrap, 并配置Python+bottle运行环境，按照QPython WebApp的规范建立项目目录
 
 
 获得[Bootstrap](http://getbootstrap.com)，获得[Bottle](http://bottlepy.org)
