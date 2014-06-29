@@ -227,6 +227,8 @@ UI开发
 ### 自己实现安装程序，通过QRCode的方式分发
 你可以自定义安装程序，然后生成QRCode，让其他人扫描QRCode并运行的方式安装上你的App。
 
+[使用QRCode工具声称QRCode代码](http://qpython.com/create.php)，然后将QRCode图片另存到本地再发布
+
 ### 自定义安装包，使用QPython的安装接口，对外分发
 QPython的market提供了几个Javascript函数定义，你能够方便地在自己的网页中调用，让使用QPython内嵌浏览器访问这些页面中可以方便地安装上.
 
