@@ -128,6 +128,10 @@ QPython是我们项目的运行容器，我们所开发的项目需要运行在Q
 - 以上传到QPython运行目录/sdcard/com.hipipal.qpyplus/projects/<ProjectDir>
 - 通过QPython的运行按钮运行查看效果
 
+将在个人电脑上开发的项目上传到手机上有以下方法
+- 启动QPython自带的FTP服务：在设置中可以看到FTP服务，开启FTP服务后会显示当前侦听的地址、端口以及帐号，你可以通过FTP客户端将项目目录上传到QPython运行目录
+- 如果你的电脑安装了Android开发套件，你也可以连接手机到开发机后，执行 adb push <本地目录> /sdcard/com.hipipal.qpyplus/projects/PM2.5 来把项目上传到QPython的项目目录
+
 ### 用Web开发模式开发QPython WebApp
 我们可以使用标准的本地Web开发流程去推进应用开发，左侧为浏览器， 中间为VIM窗口，右侧我们启动bottle开发的Web进程（QPython内建支持Bootle Web框架）
 
@@ -141,7 +145,7 @@ QPython是我们项目的运行容器，我们所开发的项目需要运行在Q
 ![本地Web开发](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/develop_with_pc.png)
 
 ### 上传到QPython运行
-- 连接手机到开发机后，执行 adb push <本地目录> /sdcard/com.hipipal.qpyplus/projects/PM2.5 来把项目上传到QPython的项目目录
+- 你可以将项目上传到手机的QPython项目目录
 - 点击开始按钮即可看到PM2.5选项
 - 启动后可以看到运行效果
 
