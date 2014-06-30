@@ -238,8 +238,12 @@ QPython的market提供了几个Javascript函数定义，你能够方便地在自
 
 参考[怎样调用Javascript来安装第三方Package](http://wiki.qpython.org/hacker/pypi_js/)
 
-### 尚不支持的发布到QPython商店
-目前官方暂时还不支持该方式，但有消息称官方团队已经将其放入发展计划。
+### 可以Build独立的Native应用发布到Google Play么
+目前官方暂时还不支持该方式，但官方团队已经将释出QPySDK其放入其接下来的发展计划
+
+### 发布到QPython商店
+目前官方暂时还不支持该方式，是否推出官方QPython商店尚未有明确计划
+
 
 
 ## 总结
