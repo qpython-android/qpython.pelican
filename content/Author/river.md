@@ -5,20 +5,20 @@ Slug: river
 Author: River
 
 
-# River
+## River
 
 ![River](https://avatars1.githubusercontent.com/u/3059527?s=460)
 
-QPython 作者, QPython 社区发起人
+Author of QPython , The founder of QPython community
 
-Android / Python 开发工程师
+Android / Python engineer
 
-热心于 Python 等等社区的开源事业
+Keen to participate in various activities of opensource
 
-目前就职于Zynga
+Work at Zynga China
 
-# Link
+## Link
 - G+:   https://plus.google.com/+riverfor
 - Github: https://github.com/riverfor
-- 微博:  http://weibo.com/riverfor
+- Facebook:  http://facebook.com/riverfor
 
