@@ -1,7 +1,7 @@
 Title: River
 Date: 2014-07-03 10:24
 Tags: people
-Slug: river
+Slug: river.y
 Author: River
 
 
