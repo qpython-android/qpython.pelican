@@ -1,7 +1,7 @@
 Title: Chifeng
 Date: 2013-11-17
 Tags: people
-Slug: chifeng
+Slug: chi-feng
 Author: Chifeng
 
 
