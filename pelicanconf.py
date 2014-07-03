@@ -91,6 +91,8 @@ SOCIAL = (('GitHub', 'https://github.com/qpython-android/QPython.org')
         , ('Q&A', 'http://qpython.org/questions/')
         , ('Wiki', 'http://wiki.qpython.org/')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
+
+        , ('QPy_β.apk', 'http://qpython.qiniudn.com/QPython70.apk')
         , ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('O.B.P', 'http://weibo.com/openbookproject')
         , ('Zoom.Quiet', 'http://zoomquiet.io')
