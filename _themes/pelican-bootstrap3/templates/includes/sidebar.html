@@ -25,9 +25,9 @@
                 </li>
             {% endfor %}
 
-            <li class="list-group-item"><a href="{{ SITEURL }}/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+            <li class="list-group-item" style='display:none'><a href="{{ SITEURL }}/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
             {% for tag in tag_cloud|sort(attribute='1') %}
-                <li class="list-group-item tag-{{ tag.1 }}">
+                <li class="list-group-item tag-{{ tag.1 }}" style='display:none'>
                     <a href="{{ SITEURL }}/{{ tag.0.url }}">
                         {{ tag.0 }}
                     </a>
