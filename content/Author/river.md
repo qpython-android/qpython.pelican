@@ -7,7 +7,7 @@ Author: River
 
 ## River
 
-![River](https://avatars1.githubusercontent.com/u/3059527?s=460)
+![River](http://tp1.sinaimg.cn/1140330320/180/5617087919/1)
 
 Author of QPython , The founder of QPython community
 
