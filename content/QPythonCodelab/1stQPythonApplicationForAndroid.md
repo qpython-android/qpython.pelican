@@ -45,16 +45,16 @@ QPython还扩展了对应的程序运行框架:约定了脚本和项目
 
 在真正启动之前,确定你基本满足以下列表展示的配置
 
-基础配置
------
-### 码农一枚
+###基础配置
+
+#### 码农一枚
 程序猿,懂得一点Python开发和Web开发想必是极好的. (如果你不懂也没关系,学完就懂)
 
 - Python,JAVA,C,C++,HTML,JS,CSS 少量经验
 - 精通A-Z 26字母, 熟练Cnglish 
 
 
-### 能正常安装QPython的Android手机
+#### 能正常安装QPython的Android手机
 
 手机: 电信协议 三星 Note2 N7108ZMDMF1:
 
@@ -64,18 +64,23 @@ QPython还扩展了对应的程序运行框架:约定了脚本和项目
 - 内存 2G
 - 存储 16G
 
-### 开发主机(手机键盘操作神人可省略)
+或同类智能手机, 不要求 root .
+
+#### 开发主机(手机键盘操作神人可省略)
 Web程序员的程序开发环境也可以说是必需的,当然如果你是手机键盘操作神人,可以用手机用发短信的小手把程序开发出来,可省略该设备同时接受大家的膜拜
 
 本人主要使用 MBP 12下半年版 
+
 - OS X 10.9.1
 - Core i7 2.2GHz
 - 8G 内存
 - 500G 机械硬盘
 
+当然,任何可以自在连接各种应该连接协议的系统和主机都是可以的.
 
-QPython入门
--------
+
+## QPython入门
+
 QPython WebApp应用框架能够让具有Web开发背景的开发者快速构建Android本地应用. 作为开发者,充分掌握你手中的利器,才能做到庖丁解牛,游刃有余地推动项目,接下来,你只需要30分钟,即可掌握QPython以及WebApp应用框架. 
 
 ### QPython的使用
@@ -101,8 +106,8 @@ QPython是我们项目的运行容器,我们所开发的项目需要运行在QPy
 更多详情可以参考[QPython WebApp帮助](http://wiki.qpython.org/dev/webapp_sample/)
 
 
-应用设计
----------
+## 应用设计
+
 掌握了QPython基础使用以及其WebApp框架后,我们可以开始针对我们的项目目标设计应用系统
 
 
@@ -162,15 +167,15 @@ QPython是我们项目的运行容器,我们所开发的项目需要运行在QPy
 ![QPython全屏运行WebApp](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm25_index_fullscreen.png)
 
 
-UI开发
----------
+## UI开发
+
 我们能在UI开发过程实现界面流程,结合模拟数据,展示了应用业务. 以下截图分别是在开发机上WEB浏览器中运行的截图和在Android手机中用QPython运行的截图. 
 
 ![PM2.5早知道 - 运行在浏览器中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_web.png)
 ![PM2.5早知道 - 运行在QPython之中](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/QPythonCodelab/assets/pm2.5_mobile.png)
 
-功能开发
----------
+## 功能开发
+
 在UI开发的基础上进行能攻开发,即可得到我们最终的版本,下列为几个关键过程的参考代码:
 ### 获得地理坐标
 
@@ -211,8 +216,8 @@ UI开发
 此外,你还想增加什么功能?天气预报, PM2.5变化趋势图以及预测 ?Just do IT !
 
 
-增加快捷链接
----------
+## 增加快捷链接
+
 开发项目完成后,是否希望在你的手机上有快速启动的入口,而不需要经过层层点击才能启动?
 最简单的方法是你可以在我的QPython浏览界面中,长按该项目图表,则能够在Android桌面创建一个快捷链接. 
 
@@ -224,8 +229,8 @@ UI开发
 此外,如果你想设置其为QPython启动按钮首选启动的应用程序而不显示当前的启动菜单,你可以在设置中,通过设置默认程序为你开发的程序即可完成. 
 
 
-发布
-----
+## 发布
+
 应用开发出来了,不发布出去让大家爽爽?目前QPython的程序发布有以下途径
 
 除了原始但是好用的的手工copy方式之外,你还可以通过QPython的方式
@@ -250,21 +255,26 @@ QPython的market提供了几个Javascript函数定义,你能够方便地在自�
 
 ## 总结
 
-让人惊喜的特性
-----
+### 让人惊喜的特性
+
 + 开发确实很简单,很快
 + 分发过程很有意思
 
 
-时间帐单:
-----
+### 时间帐单:
+
 
 简单回顾一下整个从完全小白到折腾出当前扫盲文章的时间投入:
 
-+ NH: 经ZQ大妈忽悠许久,实在推托不了了,于是开始酝酿该文章
++ NH: 经ZQ大妈忽悠许久,实在推托不了了,于是开始酝酿该文章(N>420)
 + 1H: 所有相关资料收集,概览
 + 4H: 整理为文章
 
+
 ## Changelog
 
+
+- 140703 DAMA 格式编修
+- 140701 River 在党的生日这天专意发布初稿
 - 140626 River 创建
+
