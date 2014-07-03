@@ -1,5 +1,5 @@
 Title: 如何使用QPython开发Android应用
-Date: 2014-01-26 12:42
+Date: 2014-07-03 10:25
 Tags: howto, qpy, python, ssh, script
 Slug: 1st-qpython-app-for-android
 Author: River
