@@ -128,11 +128,11 @@ a, a:hover {
     padding: 0;
     margin-left: 0;
 }
-.navbar-fixed-top {
+.navbar-nav {
     background-color: #222;
     border-color: #080808;
 }
 
-.navbar-fixed-top ul.navbar-nav li a {
+.navbar-nav ul.navbar-nav li a {
     color: #999;
 }
