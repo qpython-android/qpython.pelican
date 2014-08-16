@@ -9,8 +9,7 @@ Author: River
 
 ## 背景
 
-QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在应用市场里找到两个QPython, 一个为QPython,另一个为QPython3,前者为Python2核心,后者为Python3核心,在本章节里面我们重点所介绍的是支持Python2的QPython版本. 本文重点介绍如何使用QPython. 
-
+QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在应用市场里找到两个版本, 一个为QPython,另一个为QPython3,前者为Python2核心,后者为Python3核心,在本章节里面我们重点所介绍的是支持Python2的QPython版本。 
 
 ## A. 面板
 
@@ -28,6 +27,8 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 如果你希望点击开始按钮运行特定的程序，你可以在设置项目中设置Python脚本或项目作为默认的运行程序来实现。
 
+![启动按钮](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home.png "启动按钮")
+
 ### 开发者套件面板
 
 如果你在启动后的界面向左滑动手指，你可以看到另一个主要界面，它是专为开发者设计的。
@@ -39,6 +40,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 - 系统：管理库和组件，安装和卸载它们
 - 包列表：在浏览器中打开QPyPi，你可以在这里安装一些包
 - 社区：导向QPython问答社区，注册后你就可以提问或者回答问题
+
+
+![开发者面板](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/1-developer-dashboard.png "开发者面板")
 
 在开发者面板长按着控制台和编辑器，你可以在桌面上分别创建它们的快捷方式。
 
@@ -52,6 +56,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 
 请注意，除非你已经关闭了控制台，否则消息栏目里总会出现控制台提示，点击提示能让你直达已开启的控制台。
+
+
+![控制台](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/2-console.png "控制台")
 
 ### 编辑器
 
