@@ -68,6 +68,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 在保存时，不要忘记添加.py后缀，因为编辑器不会自动为你添加。
 
+
+![Editor](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/5-editor.png "Editor")
+
 ## C. 我的QPython
 
 你可以在我的QPython中找到脚本或项目。
@@ -84,6 +87,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 - 重命名：重命名脚本
 - 删除：删除脚本
 
+
+![Scripts](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-scripts.png "Scripts")
+
 ### 项目
 
 项目是一个包含了main.py作为默认启动脚本的文件夹，你能够把其他依赖的库和相关资源放置在其中，项目都位于 /sdcard/com.hipipal.qpyplus/projects 目录下，如果你创建了新项目，请将它放置于相同的目录下以便QPython能够将其纳入projects分类。
@@ -94,6 +100,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 - 重命名：重命名项目（修改项目文件夹名称）
 - 删除：删除项目（从sdcard中删除）
 
+![Projects](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/4-projects.png "Projects")
 
 ## D. 系统
 
@@ -108,6 +115,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 /sdcard/com.hipipal.qpyplus/lib/python2.7/site-packages （纯Python库通常会被安装到这里，如果你希望手工安装一些库，也可以将它们放置于该目录）和
 
 /data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/ ( 混合c或者c++实现的以.so为后缀的库通常会被安装到这里，此外如果你使用了pip_console.py安装的库，也有一些会被安装到这个目录下）
+
+
+![System](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-system.png "System")
 
 ### 怎么安装第三方库
 
@@ -128,6 +138,8 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 - 在QPython的系统＝》组件中使用安装将其安装到设备上
 
 组件功能如此强大以至于你能够替换QPython的Python核心。
+
+![组件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/7-compoment.png "组件")
 
 ## E. 包列表
 
@@ -150,6 +162,8 @@ QPython内建的Bottle库能让你快速开发WebApp，使用Web的开发模式�
 ### 使用Kivy开发GUI程序
 
 如果你想使用QPython开发游戏，你可以从这里获得大量的帮助
+
+![Packages Index](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/8-packages.png "Packages Index")
 
 ## F. 社区
 
