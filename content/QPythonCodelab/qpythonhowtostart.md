@@ -13,7 +13,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ## A. 面板
 
-在你已经安装了QPython之后,你可以像运行其他Android程序那样运行它,附件的截图 - A-1 是它启动后默认的样子. 
+在你已经安装了QPython之后,你可以像运行其他Android程序那样运行它,附件的截图 图 A-1 是它启动后默认的样子. 
 
 ### 开始按钮
 
@@ -29,7 +29,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ![启动按钮](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home.png "启动按钮")
 
-Pic. A - 1
+图 A - 1 启动按钮
 
 ### 开发者套件面板
 
@@ -46,6 +46,8 @@ Pic. A - 1
 
 ![开发者面板](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/1-developer-dashboard.png "开发者面板")
 
+图 A - 2 开发者面板
+
 在开发者面板长按着控制台和编辑器，你可以在桌面上分别创建它们的快捷方式。
 
 现在，让我们来看一看控制台和编辑器。
@@ -60,7 +62,9 @@ Pic. A - 1
 请注意，除非你已经关闭了控制台，否则消息栏目里总会出现控制台提示，点击提示能让你直达已开启的控制台。
 
 
-![控制台](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/2-console.png "控制台")
+![终端](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/2-console.png "终端")
+
+图 B - 1 终端
 
 ### 编辑器
 
@@ -72,6 +76,8 @@ Pic. A - 1
 
 
 ![Editor](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/5-editor.png "Editor")
+
+图 B - 2 编辑器
 
 ## C. 我的QPython
 
@@ -92,6 +98,8 @@ Pic. A - 1
 
 ![Scripts](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-scripts.png "Scripts")
 
+图 C - 1 脚本
+
 ### 项目
 
 项目是一个包含了main.py作为默认启动脚本的文件夹，你能够把其他依赖的库和相关资源放置在其中，项目都位于 /sdcard/com.hipipal.qpyplus/projects 目录下，如果你创建了新项目，请将它放置于相同的目录下以便QPython能够将其纳入projects分类。
@@ -103,6 +111,8 @@ Pic. A - 1
 - 删除：删除项目（从sdcard中删除）
 
 ![Projects](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/4-projects.png "Projects")
+
+图 C - 2 项目
 
 ## D. 系统
 
@@ -119,7 +129,9 @@ Pic. A - 1
 /data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/ ( 混合c或者c++实现的以.so为后缀的库通常会被安装到这里，此外如果你使用了pip_console.py安装的库，也有一些会被安装到这个目录下）
 
 
-![System](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-system.png "System")
+![系统](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-system.png "系统")
+
+图 D - 1 系统
 
 ### 怎么安装第三方库
 
@@ -143,6 +155,8 @@ Pic. A - 1
 
 ![组件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/7-compoment.png "组件")
 
+图 D - 2 组件
+
 ## E. 包列表
 
 该模块尚未特别完善，我们正在努力完善它。
@@ -165,7 +179,9 @@ QPython内建的Bottle库能让你快速开发WebApp，使用Web的开发模式�
 
 如果你想使用QPython开发游戏，你可以从这里获得大量的帮助
 
-![Packages Index](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/8-packages.png "Packages Index")
+![包目录](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/8-packages.png "包目录")
+
+图 E - 1 包目录
 
 ## F. 社区
 
