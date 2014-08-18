@@ -62,9 +62,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ![开发者面板](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/1-developer-dashboard.png "开发者面板")
 
-图 A - 2 开发者面板
+图A-6 开发者面板
 
-在开发者面板长按着控制台和编辑器，你可以在桌面上分别创建它们的快捷方式。
+在开发者面板长按控制台和编辑器图标，你可以在桌面上分别创建它们的快捷方式。
 
 现在，让我们来看一看控制台和编辑器。
 
