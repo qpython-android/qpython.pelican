@@ -13,7 +13,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ## A. 面板
 
-在你已经安装了QPython之后,你可以像运行其他Android程序那样运行它,附件的截图 图 A-1 是它启动后默认的样子. 
+安装完QPython之后，你可以像启动其他Android程序那样启动它，点击应用程序后，程序就出现了 图 A-1 的样子。
 
 ### 开始按钮
 
@@ -28,6 +28,9 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 如果你希望点击开始按钮运行特定的程序，你可以在设置项目中设置Python脚本或项目作为默认的运行程序来实现。
 
 ![启动按钮](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home.png "启动按钮")
+![启动按钮被点击](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home-start-button.png "启动按钮被点击")
+![进入设置页面](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting.png "进入设置页面")
+![设置默认启动程序](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting-default-program.png "设置默认启动程序")
 
 图 A - 1 启动按钮
 
