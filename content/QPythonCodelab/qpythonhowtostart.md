@@ -13,11 +13,11 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ## A. 面板
 
-安装完QPython之后，你可以像启动其他Android程序那样启动它，点击应用程序后，程序就出现了 图 A-1 的样子。
+安装完QPython之后，你可以像启动其他Android程序那样启动它，点击应用程序后，程序就出现了 图A-1 的样子。
 
 ### 开始按钮
 
-点了印有QPython logo的启动按钮之后,出现了菜单让你选择接下来的步骤:
+点击开始按钮之后,会出现如图A-2的菜单：
 - 读取包含有Python代码的QRCode图片(这是一种有趣的分发QPython代码的方式,此外你可以在[QPython的QRCode生成器](qpython.com/create.php)中贴入代码并生成QRCode图片)
 - 运行手机上的脚本
 - 运行手机上的QPython项目
@@ -25,14 +25,27 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 在大于0.9.8的版本中，现在你可以通过运行pip_console来安装很多第三方库（主要是纯python代码实现的库）。
 
-如果你希望点击开始按钮运行特定的程序，你可以在设置项目中设置Python脚本或项目作为默认的运行程序来实现。
-
 ![启动按钮](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home.png "启动按钮")
 ![启动按钮被点击](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home-start-button.png "启动按钮被点击")
+
+图A-1 启动按钮 / 图A-2 启动按钮被按下
+
+
+如果你希望点击开始按钮运行特定的Python程序，你可以在设置项目中设置Python脚本或项目作为默认的运行程序来实现。参考图A-3/ 图A-4
+
+
 ![进入设置页面](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting.png "进入设置页面")
 ![设置默认启动程序](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting-default-program.png "设置默认启动程序")
 
-图 A - 1 启动按钮 / 图 A - 2 启动按钮被按下 / 图 A - 3 进入设置界面 / 图 A - 4 设置默认倾动程序
+图 A-3 进入设置界面 / 图A-4 设置默认倾动程序
+
+### 快速开始
+
+快速开始是一个快速的引导教程，它可以帮助你快速学会怎样用QPython进行开发。它包括视频和交互的脚本，你可以点击拷贝到编辑器运行按钮来尝试这些有趣的入门程序。
+
+![快速开始](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home-quick-start.png "快速开始")
+
+图A-5 快速开始
 
 ### 开发者套件面板
 
