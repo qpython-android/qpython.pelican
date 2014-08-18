@@ -32,7 +32,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 ![进入设置页面](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting.png "进入设置页面")
 ![设置默认启动程序](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-setting-default-program.png "设置默认启动程序")
 
-图 A - 1 启动按钮
+图 A - 1 启动按钮 / 图 A - 2 启动按钮被按下 / 图 A - 3 进入设置界面 / 图 A - 4 设置默认倾动程序
 
 ### 开发者套件面板
 
