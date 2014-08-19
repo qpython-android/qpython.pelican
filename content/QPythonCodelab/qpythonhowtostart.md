@@ -9,7 +9,7 @@ Author: River
 
 ## 背景
 
-QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在应用市场里找到两个版本, 一个为QPython,另一个为QPython3,前者为Python2核心,后者为Python3核心,在本章节里面我们重点所介绍的是支持Python2的QPython版本。 
+QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应用市场里找到两个版本, 一个为QPython,另一个为QPython3,前者为Python2核心,后者为Python3核心,在本章节里面我们重点所介绍的是支持Python2的QPython版本。 
 
 ## A. 面板
 
@@ -17,13 +17,13 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ### 开始按钮
 
-点击开始按钮之后,会出现如图A-2的菜单：
+点击开始按钮之后,会出现如图A-2的菜单，你可以：
 - 读取包含有Python代码的QRCode图片(这是一种有趣的分发QPython代码的方式,此外你可以在[QPython的QRCode生成器](qpython.com/create.php)中贴入代码并生成QRCode图片)
 - 运行手机上的脚本
 - 运行手机上的QPython项目
 
 
-在大于0.9.8的版本中，现在你可以通过运行pip_console来安装很多第三方库（主要是纯python代码实现的库）。
+在不低于0.9.8的版本后，你可以通过运行pip_console来安装很多第三方库（大多数是纯python代码实现的库，如果是混合c/c++的则较复杂需要先跨平台编译）。
 
 ![启动按钮](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home.png "启动按钮")
 ![启动按钮被点击](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home-start-button.png "启动按钮被点击")
@@ -41,7 +41,7 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ### 快速开始
 
-快速开始是一个快速的引导教程，它可以帮助你快速学会怎样用QPython进行开发。它包括视频和交互的脚本，你可以点击拷贝到编辑器运行按钮来尝试这些有趣的入门程序。
+快速开始是一个快速的QPython引导教程，它可以帮助你快速学会怎样用QPython进行开发。它包括视频和交互的脚本，你可以点击“拷贝到编辑器运行”按钮来尝试运行这些有趣的程序。
 
 ![快速开始](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/0-home-quick-start.png "快速开始")
 
@@ -72,15 +72,16 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 ### 控制台
 
-就像我前面所说的，它包含了一个普通的Python控制台。许多人通常使用它来探索对象的属性，参考语法和测试他们的想法。你能直接输入命令，Python解析器将会执行他们，你可以通过点加按钮来打开更多的控制台，你也可以通过点击下拉菜单列表项目右侧的关闭图标来关闭所对应的控制台。
+就像前面所说的，它是Python控制台，许多人通常使用它来探索对象的属性，练习语法和测试想法。你能直接输入命令，Python解析器将会执行他们，你可以通过点加按钮来打开更多的控制台，你可以通过点击下拉菜单列表项目右侧的关闭图标来关闭所对应的控制台。在SPECIAL KEYS里，你可以看到一些特殊字符对应的快捷键，在设置里，你可以在首选项中设置屏幕、文本、键盘等属性。
 
 
 请注意，除非你已经关闭了控制台，否则消息栏目里总会出现控制台提示，点击提示能让你直达已开启的控制台。
 
 
 ![终端](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/2-console.png "终端")
+![终端设置](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/2-console-setting.png "终端设置")
 
-图 B - 1 终端
+图B-1 终端 /  图B-2 终端设置
 
 ### 编辑器
 
@@ -90,10 +91,14 @@ QPython可以理解为为Quick Python,它是一个脚本引擎,目前可以在�
 
 在保存时，不要忘记添加.py后缀，因为编辑器不会自动为你添加。
 
+此外，你也可以通过点击编辑器得设置图标进入到编辑器的设置项目中设置编辑器的属性。
 
-![Editor](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/5-editor.png "Editor")
 
-图 B - 2 编辑器
+![编辑器](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/5-editor.png "编辑器")
+![编辑器设置](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-editor-setting.png "编辑器设置")
+
+图B-3 编辑器 / 图B-4 编辑器设置
+
 
 ## C. 我的QPython
 
