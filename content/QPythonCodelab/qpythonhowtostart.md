@@ -108,9 +108,9 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 
 ### 脚本
 
-脚本：每个脚本都是一个独立的可执行的文件，它们位于 /sdcard/com.hipipal.qpyplus/scripts ，如果你创建了新的脚本，请放置于这个目录以便QPython能够将其纳入scripts分类。
+脚本：它们位于 /sdcard/com.hipipal.qpyplus/scripts ，如果你创建了新的脚本，请放置于这个目录，这样QPython便能够将其纳入运行按钮和我的QPython中的Scripts分类。
 
-当你在我的QPython中点击了一个脚本时，你可以选择：
+当点击一个脚本时，你可以：
 - 运行：运行这个脚本
 - 打开：使用内嵌的编辑器编辑脚本
 - 重命名：重命名脚本
@@ -119,13 +119,13 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 
 ![Scripts](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-scripts.png "Scripts")
 
-图 C - 1 脚本
+图C-1 脚本
 
 ### 项目
 
-项目是一个包含了main.py作为默认启动脚本的文件夹，你能够把其他依赖的库和相关资源放置在其中，项目都位于 /sdcard/com.hipipal.qpyplus/projects 目录下，如果你创建了新项目，请将它放置于相同的目录下以便QPython能够将其纳入projects分类。
+项目是一个包含了main.py作为默认启动脚本的文件夹，你能够把其他依赖的库和相关资源放置在其中，项目都位于 /sdcard/com.hipipal.qpyplus/projects 目录下，如果你创建了新项目，请将它放置于相同的目录下以便QPython能够将其纳入projects分类和在启动按钮的选项中能选择到它。
 
-当你在我的QPython中点击了一个项目时，你可以选择：
+当你在我的QPython中点击了一个项目时，你可以：
 - 运行：运行这个项目
 - 打开：打开这个项目
 - 重命名：重命名项目（修改项目文件夹名称）
@@ -133,7 +133,20 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 
 ![Projects](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/4-projects.png "Projects")
 
-图 C - 2 项目
+图C-2 项目
+
+
+### 如何创建或者修改脚本和项目
+
+有几种方法你可以实现，
+
+- 1 在你的电脑编写好，并将它上传到脚本目录或者项目目录（复杂的工程一般如此）
+- 2 直接实用QEditor来创建或者编辑脚本或者项目（你可以在使用QEditor的另存为功能时创建文件夹，如图C-3）
+
+
+![另存为](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-editor-save-as.png "另存为")
+
+图C-3 另存为
 
 ## D. 系统
 
@@ -172,7 +185,7 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 - 将它放到 /sdcard/com.hipipal.qpyplus/lib 目录中
 - 在QPython的系统＝》组件中使用安装将其安装到设备上
 
-组件功能如此强大以至于你能够替换QPython的Python核心。
+组件功能如此强大以至于你能够替换QPython的Python核心，我们会在以后的教程中专门介绍如何创建一个QPython组建。
 
 ![组件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/7-compoment.png "组件")
 
