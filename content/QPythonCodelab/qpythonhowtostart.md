@@ -141,7 +141,7 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 有几种方法你可以实现，
 
 - 1 在你的电脑编写好，并将它上传到脚本目录或者项目目录（复杂的工程一般如此）
-- 2 直接实用QEditor来创建或者编辑脚本或者项目（你可以在使用QEditor的另存为功能时创建文件夹，如图C-3）
+- 2 直接实用QEditor来创建或者编辑脚本或者项目（你可以在使用QEditor的另存为功能时点击右侧加号小图标来创建文件夹，如图C-3）
 
 
 ![另存为](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/3-editor-save-as.png "另存为")
@@ -150,31 +150,31 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 
 ## D. 系统
 
-在系统中你可以管理已经安装的库和组件，系统模块包含了你已经安装的Python库。此外，你还可以在系统中安装一些全局库，你可能无法在Packages Index中找到它们，比如_ssl, _csv等模块。
+在系统中你可以管理已经安装的库和组件，系统模块包含了你已经安装的Python库。此外，你还可以在系统中安装一些Python底层系统库，如_ssl, _csv等模块。
 
 ### 库
 
-库的部分包含了全局库和上面提到的已经安装的库。点击它们时你可以查看详情，此外你也可以删除它。
+你可以通过系统中管理库和安装一部分库，此外你也可以从包目录中管理库。
 
-通常，库可能会被安装到下下列路径：
+QPython库可能会被安装到下下列路径：
 
-/sdcard/com.hipipal.qpyplus/lib/python2.7/site-packages （纯Python库通常会被安装到这里，如果你希望手工安装一些库，也可以将它们放置于该目录）和
+sdcard上的库：/sdcard/com.hipipal.qpyplus/lib/python2.7/site-packages （纯Python库通常会被安装到这里，如果你希望手工安装一些库，也可以将它们放置于该目录）和
 
-/data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/ ( 混合c或者c++实现的以.so为后缀的库通常会被安装到这里，此外如果你使用了pip_console.py安装的库，也有一些会被安装到这个目录下）
+私有空间里的库：/data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/ ( 混合c或者c++实现的以.so为后缀的库通常会被安装到这里，此外如果你使用了pip_console.py安装的库，也有一些会被安装到这个目录下）
 
 
 ![系统](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/6-system.png "系统")
 
-图 D - 1 系统
+图D-1 系统
 
 ### 怎么安装第三方库
 
-正如上文所提到，如果你想简单地安装第三方纯Python实现的库，你可以简单地将它们拷贝到第一个路径下。
+正如上文所提到，如果你想简单地安装第三方纯Python实现的库，你可以简单地将它们拷贝到sdcard库目录中。
 
-如果你想安装混合c/c++编程的库，你首先在Android的NDK交叉编译环境中编译它们（这个比较有挑战和难度），然后，你可以
-- 拷贝到 /sdcard/com.hipipal.qpyplus/lib/python2.7/site-packages 中试试，如果它工作了，那就非常幸运了，你就可以忽略其他步骤了
+但如果你想安装混合c/c++编程的库，你首先在Android的NDK交叉编译环境中编译它们（这个比较有挑战和难度），然后，你可以
+- 试试拷贝到sdcard库目录中试试，如果它工作了，那就非常幸运了，你就可以忽略其他步骤了，如果不兼容。
 - 如果第一步实现后无法正常工作，你需要通过创建一个QPython组件的方式来将它们安装到手机的内置存储空间。
-- 其他步骤待续
+- 之所以需要如此尝试是因为不同手机对于sdcard目录的设定是不一样的。有一些so库在不同的手机的sdcard上呈现不同的结果，因此你需要尝试，总地来说如果拷贝到私有库空间中也无法工作，那么则需要查找其他原因了。
 
 ### 组件
 
@@ -189,13 +189,13 @@ QPython可以理解为Quick Python,它是一个脚本引擎,目前可以在应�
 
 ![组件](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/7-compoment.png "组件")
 
-图 D - 2 组件
+图D-2 组件
 
-## E. 包列表
+## E. 包目录
 
-该模块尚未特别完善，我们正在努力完善它。
+包目录是QPython最强大的地方，通过包目录，我们可以轻易扩展QPython的开发能力。 （该模块尚未特别完善，我们正在不断努力完善它）
 
-你能够通过包列表来安装许多库，它也包含详细的开发介绍，目前它包含4个分类。你可以通过安装各种库来扩展QPython。
+包目录有4个分类：
 
 ### 使用WebApp快速开发App
 
@@ -215,11 +215,11 @@ QPython内建的Bottle库能让你快速开发WebApp，使用Web的开发模式�
 
 ![包目录](https://raw.githubusercontent.com/qpython-android/qpython-android.pelican/master/content/_images/8-packages.png "包目录")
 
-图 E - 1 包目录
+图E-1 包目录
 
 ## F. 社区
 
-QPython的社区一直在持续建设中，欢迎你尽快加入，在帮助他人的同时也获得成长。
+由于QPython本身是个需要动手交互的工具，不少特性需要大家的动手挖掘才能体会到，因此从社区中获得帮助是重要的一项。QPython的社区一直在持续建设中，欢迎你尽快加入，在帮助他人的同时也获得成长。
 
 - QPython问答社区：http://qpython.org
 - QPythonSegmentfault：http://segmentfault.com/t/qpython （中文问答社区）
@@ -229,5 +229,10 @@ QPython的社区一直在持续建设中，欢迎你尽快加入，在帮助他�
 - QPythonWeixin：qpython
 
 你可以从社区中获得真人帮助。QPython社区中都是热心的人，所有的问题都会被分享和回答（如果它们清楚），此外我们鼓励你去自己动手，探索和分享有趣的Python程序世界。
+
+
+## G. 商业化
+
+QPython支持团队有向红帽学习推动其走向开源商业化的计划并且已经在行动了，如果你对此感兴趣，欢迎给我来信一起探讨：river at qpython.org
 
 ... 待续
